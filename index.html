@@ -10,7 +10,7 @@
 <body>
     <header class="header_box"> <!--added class "header_box" here-->
         <h1>Hori<span class="seo">seo</span>n</h1> <!--fixed color by adding class selector in CSS file-->
-            <nav> <!--changed from <div> to <nav> since these are navigational links; not horizontal right now-->
+            <nav class="navigation"> <!--changed from <div> to <nav> since these are navigational links; added class-->
                 <ul>
                     <li>
                         <a href="#search-engine-optimization">Search Engine Optimization</a> <!--link does not work-->
@@ -24,7 +24,9 @@
                 </ul>
             </nav>
     </header>
+
     <div class="hero"></div> <!--need to change this tag-->
+
     <section class="content">
         <article id="search-engine-optimization" class="search-engine-optimization"> <!--link does not jump to section without id attribute-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="image of desk with notebook containing the words: popular content, headings, mobile compatibility, social media, link building, and backlink" class="float-left" />
@@ -48,6 +50,7 @@
             </p>
         </article>
     </section>
+
     <section class="benefits">
         <article class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -71,6 +74,7 @@
             </p>
         </article>
     </section>
+
     <footer class="footer">
         <h2>Made with <span alt="love">❤️️</span> by Horiseon</h2>
         <p>
