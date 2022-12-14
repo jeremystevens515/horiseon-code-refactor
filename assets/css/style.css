@@ -8,21 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/*changed class selector from header to header_box*/
+.header_box { 
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header_box {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header_box {
     color: #d9dcd6;
 }
+
 
 .header div {
     padding-top: 15px;
@@ -197,4 +199,12 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+
+
+/*Code added by me v*/
+
+.seo {
+    color: #d9dcd6
 }
